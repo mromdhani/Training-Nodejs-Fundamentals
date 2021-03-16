@@ -1,0 +1,7 @@
+npm init --yes
+
+npm install express --save
+
+touch app.js
+
+mkdir routes public

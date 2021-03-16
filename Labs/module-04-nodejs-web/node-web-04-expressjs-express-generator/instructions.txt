@@ -1,0 +1,10 @@
+npx express-generator --view=ejs  node-web-04-expressjs-express-generator
+
+npm install --save-dev nodemon
+
+
+In package.json, locate the "scripts" entry. Add a new line that defines a script devstart as follows.
+"scripts": {
+    "start": "node ./bin/www",
+    "devstart": "DEBUG=myapp:* nodemon ./bin/www"
+  },
