@@ -1,13 +1,14 @@
 {
-  "name": "node-web-05-expressjs-express-generator-nodemon",
+  "name": "node-web-06-expressjs-controllers",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "SET DEBUG=node-web-05-expressjs-express-generator-nodemon:* & nodemon ./bin/www"
+    "dev": "SET DEBUG=node-web-06-expressjs-controllers:* & nodemon ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
     "express": "~4.16.1",
